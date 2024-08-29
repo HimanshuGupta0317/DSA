@@ -7,10 +7,10 @@ public class Left_rotatearray {
     static void rotate(int[] arr, int k) {
         int n = arr.length; // for finding length of an array
         k %= n; // n times rotate krne k baad array same aayega to use "k" k range me layenge
-        reverse(arr,0, n - 1);
-        reverse(arr, 0, n-k-1);
+        reverse(arr, 0, n - 1);
+        reverse(arr, 0, n - k - 1);
         reverse(arr, k, n - 1);
-        
+
     }
 
     static void reverse(int[] arr, int i, int j) {
@@ -36,7 +36,7 @@ public class Left_rotatearray {
         System.out.println("Enter the value of a:");
         int a = sc.nextInt();
 
-        rotate(arr,a);
+        rotate(arr, a);
 
         // =============----------------> left rotate array
 

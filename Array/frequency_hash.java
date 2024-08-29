@@ -66,7 +66,6 @@ public class frequency_hash {
 
 
     // --------------give an unsorted array print an element that has 
-
     // for same frequency print all of them
 
     // public static void main(String[] args) {
