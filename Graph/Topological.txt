@@ -1,0 +1,31 @@
+Topo sorting is not possible for graph other than DAG's
+
+
+            5        4
+            / \    / |
+           /   \  /  |
+          2      0   |
+           \         |
+            \        |
+             \       |
+              3----->1
+
+
+
+    The first vertex in topo sort is always a vertex with in n degree of 0(a vertex with no incoming in edges)
+    Topological order may not be unique hence you can have multiple solution.
+    Topological sort using DFS(stack)
+
+    Algorithm:-
+    Step 1:-  Create a graph with n vertices and m directed edges
+    Step 2:-  Initialize a stack and a visited array.
+    Step 3:-  for each un visited vertex in the graph do the following step
+            3.1 call the dfs function with the vertex as the parameter
+            3.2  IN THE DFS FUNCTION MARK THE VERTEX AS VISITED ANDD RECURSIVELY CALL THE DFS FUNCTION FOR ALL UN-VISITED NEIGHBOURS
+
+            3.3 ONCE ALL THE NIIGHBOURS HAS BEEN VISITED PUSH THE VERTEX INTO THE STACK.
+    Step 4:-   AFTER ALL THE VERTICES HAVE BEEN PUSH INTO THE STACK POP THE ELEMENT AND PRINT THE ANSWER
+
+
+aise graph where dfs not work then we use topological sort
+    

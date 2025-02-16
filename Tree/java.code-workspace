@@ -1,0 +1,35 @@
+{
+	"folders": [
+		{
+			"path": "E:/java"
+		},
+		{
+			"path": "E:/Backend"
+		},
+		{
+			"path": "E:/coding"
+		},
+		{
+			"path": "E:/HTML_JS_CSS"
+		},
+		{
+			"path": "E:/React"
+		},
+		{
+			"path": "E:/Server"
+		},
+		{
+			"path": "E:/Zomato"
+		},
+		{
+			"path": "../../Flipkart"
+		},
+		{
+			"path": ".."
+		}
+	],
+	"settings": {
+		"java.debug.settings.onBuildFailureProceed": true,
+		"terminal.integrated.fontSize": 13
+	}
+}

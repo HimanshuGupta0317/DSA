@@ -5,6 +5,7 @@ import java.util.ArrayList;
 public class StackAL {
 
     ArrayList<Integer> list = new ArrayList<>();
+    // List<Integer> li = new ArrayList<>();
 
     public void push(int data)
     {
